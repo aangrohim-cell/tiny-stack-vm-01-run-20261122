@@ -1,3 +1,4 @@
+// tiny-stack vm
 import{mkdirSync as mk,readdirSync as rd,readFileSync as rf,writeFileSync as wf}from'node:fs';import{join as J}from'node:path';
 const I=new Array(256);const s=(o,i,p,u)=>I[o]=[i,p,u];
 s(0,0,0,0);s(1,1,0,1);s(2,4,0,1);s(3,0,1,0);s(4,0,1,2);s(5,0,2,2);s(6,0,2,3);s(7,0,3,3);
